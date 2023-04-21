@@ -1,0 +1,175 @@
+@font-face {
+  font-family: HankenGrotesk;
+  src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+body {
+  font-family: HankenGrotesk;
+  font-size: 18px;
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.result {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 360px;
+  max-height: 511px;
+  flex-direction: column;
+  color: white;
+  padding: 0 0 2rem;
+}
+.result p {
+  color: hsl(241, 100%, 89%);
+  text-align: center;
+  margin: 0 3.3rem;
+}
+.circle {
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  border-radius: 50%;
+  width: 152.625px;
+  height: 152.625px;
+}
+.circle h1 {
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  margin-top: 40px;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+.circle h2 {
+  color: hsl(241, 100%, 89%);
+  text-align: center;
+  font-size: 12px;
+  margin-top: 0;
+}
+.your-result {
+  color: hsl(241, 100%, 89%);
+  font-size: 1.3rem;
+  margin: 2rem 0;
+}
+button {
+  border-radius: 25px;
+  font-size: 14px;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  padding: 1rem 3rem;
+  font-weight: 600;
+  border: none;
+  width: 290px;
+}
+button:hover {
+  cursor: pointer;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+  width: 360px;
+  height: 511px;
+  padding: 2rem;
+}
+.info p {
+  color: hsl(241, 100%, 88%);
+  text-align: center;
+}
+.info strong {
+  color: hsl(224, 30%, 27%);
+  text-align: center;
+}
+.info span {
+  display: flex;
+  text-align: center;
+}
+.info h3 {
+  margin-right: 2rem;
+  margin-left: 0.5rem;
+  font-size: 18px;
+  text-align: center;
+}
+main {
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  height: auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 2rem;
+  flex-wrap: wrap;
+  box-shadow: 20px 20px 50px hsla(224, 30%, 27%, 0.05);
+}
+span div {
+  display: flex;
+}
+.info h1 {
+  color: hsl(224, 30%, 27%);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 20px;
+}
+.Reaction {
+  background-color: hsla(0, 100%, 67%, 0.09);
+  width: 290px;
+  height: 55px;
+  justify-content: space-around;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.Reaction h3 {
+  color: hsla(0, 100%, 67%);
+}
+.Memory {
+  background-color: hsla(39, 100%, 56%, 0.09);
+  width: 290px;
+  height: 55px;
+  justify-content: space-around;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.Memory h3 {
+  color: hsla(39, 100%, 56%);
+  width: 71px;
+}
+.Verbal {
+  background-color: hsla(166, 100%, 37%, 0.09);
+  width: 290px;
+  height: 55px;
+  justify-content: space-around;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.Verbal h3 {
+  color: hsla(166, 100%, 37%);
+}
+.Visual {
+  background-color: hsla(234, 85%, 45%, 0.09);
+  width: 290px;
+  height: 55px;
+  justify-content: space-around;
+  border-radius: 15px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+.Visual h3 {
+  color: hsla(234, 85%, 45%);
+}
+footer {
+  margin-top: 2rem;
+}
