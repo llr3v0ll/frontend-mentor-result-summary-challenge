@@ -98,7 +98,7 @@ button:hover {
   display: flex;
   text-align: center;
 }
-.info h3 {
+.info h2 {
   margin-right: 2rem;
   margin-left: 0.5rem;
   font-size: 18px;
@@ -132,7 +132,7 @@ span div {
   border-radius: 15px;
   margin-top: 15px;
 }
-.Reaction h3 {
+.Reaction h2 {
   color: hsla(0, 100%, 67%);
 }
 .Memory {
@@ -143,7 +143,7 @@ span div {
   border-radius: 15px;
   margin-top: 15px;
 }
-.Memory h3 {
+.Memory h2 {
   color: hsla(39, 100%, 56%);
   width: 71px;
 }
@@ -155,7 +155,7 @@ span div {
   border-radius: 15px;
   margin-top: 15px;
 }
-.Verbal h3 {
+.Verbal h2 {
   color: hsla(166, 100%, 37%);
 }
 .Visual {
@@ -167,7 +167,7 @@ span div {
   margin-top: 15px;
   margin-bottom: 35px;
 }
-.Visual h3 {
+.Visual h2 {
   color: hsla(234, 85%, 45%);
 }
 footer {
